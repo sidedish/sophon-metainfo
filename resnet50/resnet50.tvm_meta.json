@@ -1,0 +1,41 @@
+{
+  "tvm_version": "0.1.0",
+  "func_info": {
+    "__tvm_reset50_1__": {
+      "name": "run_cmdbuf_resnet50",
+      "arg_types": [
+        "handle",
+        "handle",
+        "handle"
+      ],
+      "thread_axis_tags": [
+      ],
+      "sophon_device_type": 16801,
+      "sophon_kernel": "resnet50.cmdbuf",
+      "sophon_batch_num": 1,
+      "sophon_input_dsize": 602112,
+      "sophon_output_dsize": 4000,
+      "sophon_weight_bsize": 102441076,
+      "sophon_neuron_bsize": 186871616,
+      "sophon_output_offset": 186867616
+    },
+    "__tvm_reset50_2__": {
+      "name": "run_cmdbuf_resnet50",
+      "arg_types": [
+        "handle",
+        "handle",
+        "handle"
+      ],
+      "thread_axis_tags": [
+      ],
+      "sophon_device_type": 16801,
+      "sophon_kernel": "resnet50.cmdbuf",
+      "sophon_batch_num": 2,
+      "sophon_input_dsize": 602112,
+      "sophon_output_dsize": 4000,
+      "sophon_weight_bsize": 102441076,
+      "sophon_neuron_bsize": 186871616,
+      "sophon_output_offset": 186867616
+    }
+  }
+}
