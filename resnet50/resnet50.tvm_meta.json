@@ -2,7 +2,7 @@
   "tvm_version": "0.1.0",
   "func_info": {
     "__tvm_reset50_1__": {
-      "name": "run_cmdbuf_resnet50",
+      "name": "run_resnet50_1_3_224_224.cmdbuf",
       "arg_types": [
         "handle",
         "handle",
@@ -11,8 +11,11 @@
       "thread_axis_tags": [
       ],
       "sophon_device_type": 16801,
-      "sophon_kernel": "resnet50.cmdbuf",
-      "sophon_batch_num": 1,
+      "sophon_kernel": "resnet50_1_3_224_224.cmdbuf",
+      "sophon_input_n": 1,
+      "sophon_input_c": 3,
+      "sophon_input_h": 224,
+      "sophon_input_w": 224,
       "sophon_input_dsize": 602112,
       "sophon_output_dsize": 4000,
       "sophon_weight_bsize": 102441076,
@@ -20,7 +23,7 @@
       "sophon_output_offset": 186867616
     },
     "__tvm_reset50_2__": {
-      "name": "run_cmdbuf_resnet50",
+      "name": "run_resnet50_2_3_224_224.cmdbuf",
       "arg_types": [
         "handle",
         "handle",
@@ -29,13 +32,16 @@
       "thread_axis_tags": [
       ],
       "sophon_device_type": 16801,
-      "sophon_kernel": "resnet50.cmdbuf",
-      "sophon_batch_num": 2,
-      "sophon_input_dsize": 602112,
-      "sophon_output_dsize": 4000,
+      "sophon_kernel": "resnet50_2_3_224_224.cmdbuf",
+      "sophon_input_n": 2,
+      "sophon_input_c": 3,
+      "sophon_input_h": 224,
+      "sophon_input_w": 224,
+      "sophon_input_dsize": 1204224,
+      "sophon_output_dsize": 8000,
       "sophon_weight_bsize": 102441076,
-      "sophon_neuron_bsize": 186871616,
-      "sophon_output_offset": 186867616
+      "sophon_neuron_bsize": 373743232,
+      "sophon_output_offset": 373735232
     }
   }
 }
